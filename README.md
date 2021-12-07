@@ -6,7 +6,7 @@ Jeg delte alle de forskjellige elementene inn i forskjellige klasser istede for 
 
 noen eksempler på noe jeg gjennbrukte er:
 ## header
-´´´html
+\\\html
     <header>
         <h1> <b id="purplify">JR</b> Web Design</h1>
         <ul>
@@ -15,7 +15,7 @@ noen eksempler på noe jeg gjennbrukte er:
             <li><a href="/løsning/services.html">TJENESTER</a></li>
         </ul>
     </header>
-´´´
+\\\
 
 og
 ## den ekte footeren 
