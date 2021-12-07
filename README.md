@@ -39,25 +39,25 @@ beholdt temaet og fargene men brukte ikke like mye bilder på alle siden, samt f
 Jeg hadde ikke så mange problemer med designet av oppgaven, men hadde noen problemer anngående å sette opp Github Pages, spessielt fordi linkene mine må referes på annen måte i github pages fordi det må via repositoriet. 
 f.eks:
 ### I **min** kode
-´´´html
+\\\html
         <ul>
             <li><a href="/løsning/index.html">HOME</a></li>
             <li><a href="/løsning/about.html">OM OSS</a></li>
             <li><a href="/løsning/services.html">TJENESTER</a></li>
         </ul>
-´´´
+\\\
 
 Dette går på min maskin fordi den finner filene på riktig sted. Men Github Pages må refere via et bestemt directory i Github Pages. [artikkel på det](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source)
 For å løse dette måtte jeg flytte alle filene til Root directoriet på main-branchen på Github og re-refere til de riktige filene.
 
 ### sånn her
-´´´html
+\\\html
         <ul>
             <li><a href="/website-page-design/index.html">HOME</a></li>
             <li><a href="/website-page-design/about.html">OM OSS</a></li>
             <li><a href="/website-page-design/services.html">TJENESTER</a></li>
         </ul>
-´´´
+\\\
 
 Dette problemet var ikke vanskelig å løse men repositoriet ser litt mer rotete ut nå. 🤨
 
