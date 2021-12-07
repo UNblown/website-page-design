@@ -10,7 +10,7 @@ noen eksempler på noe jeg gjennbrukte er:
     <header>
         <h1> <b id="purplify">JR</b> Web Design</h1>
         <ul>
-            <li><a id="active" href="/løsning/index.html">HOME</a></li>
+            <li><a href="/løsning/index.html">HOME</a></li>
             <li><a href="/løsning/about.html">OM OSS</a></li>
             <li><a href="/løsning/services.html">TJENESTER</a></li>
         </ul>
@@ -47,8 +47,8 @@ f.eks:
         </ul>
 ```
 
-Dette går på min maskin fordi den finner filene på riktig sted. Men Github Pages må refere via et bestemt directory i Github Pages. [artikkel på det](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source)
-For å løse dette måtte jeg flytte alle filene til Root directoriet på main-branchen på Github og re-refere til de riktige filene.
+Dette går på min maskin fordi den finner filene på riktig sted. Men Github Pages må refere via et bestemt directory i Github Pages. [artikkel på det](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
+For å løse dette måtte jeg flytte alle filene til Root directoriet på main-branchen på Github og re-referere til de riktige filene.
 
 ### sånn her
 ```html
